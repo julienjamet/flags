@@ -1,9 +1,4 @@
-@font-face {
-  font-family: "font-1";
-  src: url(../assets/fonts/JosefinSans-Medium.ttf);
-}
-
-$font-1: "font-1", sans-serif;
+$font-1: Arial, sans-serif;
 
 $color-1: #61dafb;
 $color-2: salmon;
@@ -27,6 +22,7 @@ body {
   font-family: $font-1;
   // @include verticalCenter;
 }
+
 li {
   list-style-type: none;
 }
