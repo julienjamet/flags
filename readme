@@ -1,3 +1,8 @@
 This project has been carried out from scratch during my React training.
 
-I followed step by step a tutorial from the youtube channel "From Scratch"
+I followed step by step a tutorial from the youtube french channel "From Scratch"
+
+To explore the site, please follow these instructions : 
+
+- Clone the repository
+- From the [root] folder, run `npm install`, then `npm start`
