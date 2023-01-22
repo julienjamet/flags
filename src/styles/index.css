@@ -13,30 +13,38 @@ li {
   list-style-type: none;
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  margin: 30px auto;
+  padding: 0 10px 0 10px;
+  text-align: justify;
+  max-width: 1000px;
+}
+
 .navigation ul {
   display: flex;
   margin: 30px;
 }
-
 .navigation ul a {
   text-decoration: none;
   padding: 10px;
 }
-
 .navigation ul a li {
   color: #61dafb;
   transition: 0.2s;
   cursor: pointer;
 }
-
 .navigation ul a li:hover {
   color: #282c34;
 }
-
 .navigation ul .nav-active {
   position: relative;
 }
-
 .navigation ul .nav-active::after {
   content: "";
   height: 4px;
@@ -50,13 +58,11 @@ li {
   -webkit-animation: anim 0.3s ease forwards;
   animation: anim 0.6s ease forwards;
 }
-
 @-webkit-keyframes anim {
   to {
     width: 100%;
   }
 }
-
 @keyframes anim {
   to {
     width: 100%;
@@ -73,11 +79,9 @@ li {
   padding: 5px 0;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
 }
-
 .logo img {
   height: 40px;
 }
-
 .logo h3 {
   margin-left: 10px;
   color: #61dafb;
@@ -86,7 +90,6 @@ li {
 .countries {
   text-align: center;
 }
-
 .countries .radio-container {
   justify-content: space-around;
   align-items: center;
@@ -97,16 +100,13 @@ li {
   color: rgb(243, 243, 243);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.452);
 }
-
 .countries .radio-container input {
   transform: translateY(1px);
 }
-
 .countries .radio-container label {
   margin-left: 10px;
   cursor: pointer;
 }
-
 .countries input[type=text] {
   padding: 10px;
   border-radius: 40px;
@@ -118,13 +118,11 @@ li {
   width: 400px;
   margin-bottom: 20px;
 }
-
 .countries input[type=text]:focus {
   background: #61dafb;
   border-radius: 4px;
   color: rgb(243, 243, 243);
 }
-
 .countries button {
   margin: 0 auto 20px;
   background: none;
@@ -134,11 +132,9 @@ li {
   cursor: pointer;
   transition: 0.2s;
 }
-
 .countries button:hover {
   background: #61dafb;
 }
-
 .countries ul {
   display: flex;
   flex-wrap: wrap;
@@ -152,21 +148,17 @@ li {
   border-radius: 4px;
   transition: 0.3s;
 }
-
 .card h2 {
   font-size: 1rem;
 }
-
 .card:hover {
   transform: scale(1.2);
   z-index: 2;
 }
-
 .card:hover .infos {
   opacity: 1;
   transform: scaleY(1);
 }
-
 .card .infos {
   position: absolute;
   top: 0;
@@ -183,13 +175,10 @@ li {
   transform: scaleY(0);
   transition: 0.3s;
 }
-
 .card img {
   height: 100px;
   width: 160px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

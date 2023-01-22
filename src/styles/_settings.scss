@@ -26,3 +26,16 @@ body {
 li {
   list-style-type: none;
 }
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  margin: 30px auto;
+  padding: 0 10px 0 10px;
+  text-align: justify;
+  max-width: 1000px;
+}
