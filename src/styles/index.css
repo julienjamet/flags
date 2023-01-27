@@ -141,6 +141,11 @@ p {
   justify-content: center;
 }
 
+@media all and (max-width: 575px) {
+  .radio-input {
+    display: none;
+  }
+}
 .card {
   position: relative;
   height: 100px;
