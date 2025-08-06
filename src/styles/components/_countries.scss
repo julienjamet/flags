@@ -21,6 +21,7 @@
       cursor: pointer;
     }
   }
+
   input[type="text"] {
     padding: 10px;
     border-radius: 40px;
@@ -61,7 +62,11 @@
 }
 
 @media all and (max-width: 575px) {
-  .radio-input {
-    display: none;
-  }
+    .countries {
+        padding: 0 2%;
+
+        .radio-input {
+          display: none;
+        }
+    }
 }

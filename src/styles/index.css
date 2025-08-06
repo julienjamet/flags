@@ -137,7 +137,10 @@ p {
 }
 
 @media all and (max-width: 575px) {
-  .radio-input {
+  .countries {
+    padding: 0 2%;
+  }
+  .countries .radio-input {
     display: none;
   }
 }
